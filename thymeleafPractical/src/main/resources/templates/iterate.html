@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>example of loop!</title>
+</head>
+<body>
+	<h1>Going to traverse elements in collections!!</h1>
+	
+	
+	
+	<ul>
+	<li th:each="n:${names}">
+	<span th:text="${n}"></span>
+	
+	</li>
+	
+	</ul>
+</body>
+</html>
